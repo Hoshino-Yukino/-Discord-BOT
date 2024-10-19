@@ -1,0 +1,20 @@
+{
+    "OwnerID" : "",
+    "TestTOKEN" : "",
+	"TOKEN" : "",
+    "saucenao_apikey" : "",
+	"ScrapingAnt_token" : "",
+    "CattoGPT_token" : "",
+    "setu_api" : "",
+    "ServerId" : "",
+    "TestServerId" : "",
+    "CLIENT_ID" : "",
+    "CLIENT_SECRET" : "",
+    "Catto_APIKEY" : "",
+    "Catto_EndPoint" : "",
+    "KamiyaToken" : "",
+    "Kamiya_APIToken" : "",
+    "Kamiya_EndPoint" : "",
+    "OhmyGPT_APIToken" : "",
+    "OhmyGPT_EndPoint" : ""
+}

@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"discord.py" = "*"
+aiohttp = "*"
+pillow = "*"
+aiofiles = "*"
+picimagesearch = "*"
+scrapingant-client = "*"
+urllib3 = "*"
+pynacl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

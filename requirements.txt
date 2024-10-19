@@ -1,0 +1,12 @@
+discord.py
+aiohttp
+pillow
+aiofiles
+picimagesearch
+scrapingant-client
+urllib3
+pynacl
+openai
+webuiapi
+fastapi
+linked-roles

@@ -1,0 +1,312 @@
+{
+	"Owner ONLY":{
+		"en":"Owner ONLY",
+		"zh_CN":"机器人所有者命令",
+		"ja":"ボットマスター限り"
+	},
+	"value":{
+		"en":"value",
+		"zh_CN":"值",
+		"ja":"値"
+	},
+	"prompt":{
+		"en":"prompt",
+		"zh_CN":"关键字",
+		"ja":"キーワード"
+	},
+	"negative_prompt":{
+		"en":"negative_prompt",
+		"zh_CN":"反向关键字",
+		"ja":"ネガティブキーワード"
+	},
+	"sampling_steps":{
+		"en":"sampling_steps",
+		"zh_CN":"迭代步数",
+		"ja":"ステップ数"
+	},
+	"cfg_scale":{
+		"en":"cfg_scale",
+		"zh_CN":"关键字服从度",
+		"ja":"服従度"
+	},
+	"sampler":{
+		"en":"sampler",
+		"zh_CN":"采样方法",
+		"ja":"サンプルを集める方法"
+	},
+	"width":{
+		"en":"width",
+		"zh_CN":"高度",
+		"ja":"幅"
+	},
+	"height":{
+		"en":"height",
+		"zh_CN":"宽度",
+		"ja":"高"
+	},
+	"1-50 注意：超过35导致4倍MIRA开销 Default:28":{
+		"en":"1-50 Note: Exceeding 35 will result in a 4 times increase in MIRA expenses. Default: 28",
+		"zh_CN":"1-50 注意：超过35导致4倍MIRA开销 默认值：28",
+		"ja":"1-50 注意: 35を超えると、MIRAのコストが4倍になります。デフォルト値: 28"
+	},
+	"1-30, Default:7.0":{
+		"en":"1-30, Default:7.0",
+		"zh_CN":"1-30, 默认值：7.0",
+		"ja":"1-30, デフォルト値:7.0"
+	},
+	"注意：宽度x高度>640000将导致8倍MIRA开销 Default:518":{
+		"en":"Note: If the width multiplied by the height is greater than 640,000, it will cause a 8-fold increase in MIRA costs. Default value: 518.",
+		"zh_CN":"注意：宽度x高度>640000将导致8倍MIRA开销 默认值：518",
+		"ja":"注意：幅x高さが640,000を超えると、8倍のMIRAコストが発生します。デフォルト値は518です。"
+	},
+	"Default：random":{
+		"en":"Default：random",
+		"zh_CN":"默认随机",
+		"ja":"デフォルトはランダム"
+	},
+	"Show your total property":{
+		"en":"Show your total property",
+		"zh_CN":"查询自己的货币持有量",
+		"ja":"自分の通貨の保有量を調べ"
+	},
+	"exchange_type":{
+		"en":"exchange_type",
+		"zh_CN":"兑换类型",
+		"ja":"エックスチェンジタイプ"
+	},
+	"新会話を始まる | Limit:30/day":{
+		"en":"Starting a new conversation | Limit: 30/day",
+		"zh_CN":"与GPT开始新的对话 | 限制:30/day",
+		"ja":"新会話を始まる | 制限:30/day"
+	},
+	"前回の会話を続ける | 1 セッション内のリクエストの最大数:30":{
+		"en":"showproperty",
+		"zh_CN":"继续上一次的对话| 一个主题的最大请求数:30",
+		"ja":"前回の会話を続ける | 1 セッション内のリクエストの最大数:30"
+	},
+	"翻訳したい言語、モデルを設定します。設定した言語がGPT言語ライブラリにない場合、翻訳機能に未知の結果が生じる可能性があります。":{
+		"en":"Set the language and model for translation.",
+		"zh_CN":"设置想要翻译成的语言和模型。如果所设置的语言不在GPT语言库中，可能会产生未知的结果。",
+		"ja":"翻訳したい言語、モデルを設定します。設定した言語がGPT言語ライブラリにない場合、翻訳機能に未知の結果が生じる可能性があります。"
+	},
+	"Draw your JRRP today":{
+		"en":"Draw your JRRP today",
+		"zh_CN":"抽取你的今日人品",
+		"ja":"Draw your JRRP today"
+	},
+	"r":{
+		"en":"r",
+		"zh_CN":"r",
+		"ja":"r"
+	},
+	"dice":{
+		"en":"dice",
+		"zh_CN":"骰子类型",
+		"ja":"サイコロ種類"
+	},
+	"Draw a dice. Default dice: 1d6":{
+		"en":"Draw a dice. Default dice: 1d6",
+		"zh_CN":"掷骰子，默认：1d6",
+		"ja":"サイコロを描いて。デフォルトのサイコロ：1d6"
+	},
+	"Example: 2d6 - Draw 2 hexahedron":{
+		"en":"Example: 2d6 - Draw 2 hexahedron",
+		"zh_CN":"例：2d6 - 掷两枚六面骰",
+		"ja":"例：2d6 - 2つの六面体ダイスを振る"
+	},
+	"aidraw":{
+		"en":"aidraw",
+		"zh_CN":"ai绘图",
+		"ja":"ai作図"
+	},
+	"翻訳":{
+		"en":"translate",
+		"zh_CN":"翻译",
+		"ja":"翻訳"
+	},
+	"删除色图投票":{
+		"en":"del_setu_vote",
+		"zh_CN":"删除色图投票",
+		"ja":"エロ画像の投票を削除"
+	},
+	"来张色图":{
+		"en":"setu",
+		"zh_CN":"来张色图",
+		"ja":"エロ画像"
+	},
+	"translation_config":{
+		"en":"translation_config",
+		"zh_CN":"翻译设置",
+		"ja":"翻訳設定"
+	},
+	"help":{
+		"en":"help",
+		"zh_CN":"帮助",
+		"ja":"help"
+	},
+	"Open all cmds menu":{
+		"en":"Open all cmds menu",
+		"zh_CN":"打开命令查找菜单",
+		"ja":"コマンド検索メニューを開きます"
+	},
+	"生成中のFLAGの占有を解除する 「Admin ONLY」":{
+		"en":"Unlocking the occupation of the FLAG under generation. 「Admin ONLY」",
+		"zh_CN":"将GPT生成中FLAG恢复为False",
+		"ja":"生成中のFLAGの占有を解除する 「Admin ONLY」"
+	},
+	"Get Nintendo Friend Code":{
+		"en":"Get Nintendo Friend Code",
+		"zh_CN":"获得任天堂好友码",
+		"ja":"任天堂フレンドコードを表示"
+	},
+	"任天堂フレンドコードを登録する":{
+		"en":"Set Nintendo Friend Code",
+		"zh_CN":"设置任天堂好友码",
+		"ja":"任天堂フレンドコードを登録する"
+	},
+	"任天堂フレンドコードを表示":{
+		"en":"Get Nintendo Friend Code",
+		"zh_CN":"获得任天堂好友码",
+		"ja":"任天堂フレンドコードを表示"
+	},
+	"任天堂フレンドコードを削除":{
+		"en":"Delete Nintendo Friend Code",
+		"zh_CN":"删除任天堂好友码",
+		"ja":"任天堂フレンドコードを削除"
+	},
+	"「Party Creator ONLY」Make your party private, preventing anyone from joining you directly":{
+		"en":"「Party Creator ONLY」Make your party private, preventing anyone from joining you directly",
+		"zh_CN":"「仅限派对创建者」设置派对为私有，任何人加入需要审核",
+		"ja":"「パーティークリエイター専用」パーティーをプライベートに設定し、参加するためには承認が必要です。"
+	},
+	"「Party Creator ONLY」Make your private party public again, so anyone can join":{
+		"en":"「Party Creator ONLY」Make your private party public again, so anyone can join",
+		"zh_CN":"「仅限派对创建者」设置派对为公开，任何人都可以任意加入",
+		"ja":"「パーティークリエイター専用」プライベートパーティーを再び公開し、誰でも参加できるように"
+	},
+	"「Party Creator ONLY」Limit the number of users allowed in your channel":{
+		"en":"「Party Creator ONLY」Limit the number of users allowed in your channel",
+		"zh_CN":"「仅限派对创建者」设置派对成员最大数量",
+		"ja":"「パーティークリエイター専用」チャンネルで許可されるユーザーの数を制限します。"
+	},
+	"limit_num":{
+		"en":"limit_num",
+		"zh_CN":"成员数",
+		"ja":"制限数"
+	},
+	"「Party Creator ONLY」Remove the user limit in your channel":{
+		"en":"「Party Creator ONLY」Remove the user limit in your channel",
+		"zh_CN":"「仅限派对创建者」移除派对成员数限制",
+		"ja":"「パーティークリエイター専用」チャンネル内のユーザー制限を解除してください。"
+	},
+	"「Party Creator ONLY」Remove a user from your channel and prevent them from joining again":{
+		"en":"「Party Creator ONLY」Remove a user from your channel and prevent them from joining again",
+		"zh_CN":"「仅限派对创建者」禁止选定成员加入派对，并立刻将其移出频道",
+		"ja":"「パーティークリエイター専用」チャンネルからユーザーを削除し、再度参加できないようにします。"
+	},
+	"user":{
+		"en":"user",
+		"zh_CN":"成员",
+		"ja":"メンバー"
+	},
+	"The user you want to remove":{
+		"en":"The user you want to remove",
+		"zh_CN":"想要移除的成员",
+		"ja":"削除したいユーザー"
+	},
+	"「Party Creator ONLY」Edit bitrate of the party":{
+		"en":"「Party Creator ONLY」Edit bitrate of the party",
+		"zh_CN":"「仅限派对创建者」编辑派对语音的比特率",
+		"ja":"「パーティークリエイター専用」パーティーのビットレートを編集"
+	},
+	"Set a custom bitrate (in kbps) for PartyChat Default:64":{
+		"en":"Set a custom bitrate (in kbps) for PartyChat Default:64",
+		"zh_CN":"语音比特率",
+		"ja":"音声ビットレート"
+	},
+	"「Party Creator ONLY」Directly change the name of the PartyChat":{
+		"en":"「Party Creator ONLY」Directly change the name of the PartyChat",
+		"zh_CN":"「仅限派对创建者」重新命名派对",
+		"ja":"「パーティークリエイター専用」パーティーの名前を直接変更"
+	},
+	"Category":{
+		"en":"Category",
+		"zh_CN":"类别",
+		"ja":"Category"
+	},
+	"VoiceChannel":{
+		"en":"VoiceChannel",
+		"zh_CN":"语音频道",
+		"ja":"VoiceChannel"
+	},
+	"TextChannel":{
+		"en":"TextChannel",
+		"zh_CN":"文字频道",
+		"ja":"TextChannel"
+	},
+	"help":{
+		"en":"select",
+		"zh_CN":"选择",
+		"ja":"選択"
+	},
+	"channelname":{
+		"en":"channelname",
+		"zh_CN":"频道名",
+		"ja":"チャンネルの名前"
+	},
+	"「Party Creator ONLY」Transfer ownership of your channel to someone else in the channel":{
+		"en":"「Party Creator ONLY」Transfer ownership of your channel to someone else in the channel",
+		"zh_CN":"「仅限派对创建者」转移派对所有权",
+		"ja":"「パーティークリエイター専用」あなたのチャンネルの所有権をチャンネル内の他の人に譲渡"
+	},
+	"「Party Creator ONLY」Close the party immediately.":{
+		"en":"「Party Creator ONLY」Close the party immediately.",
+		"zh_CN":"「仅限派对创建者」立刻关闭派对",
+		"ja":"「パーティークリエイター専用」パーティーを直ちに閉じてください。"
+	},
+	"「Party Creator ONLY」Allow someone join your party again":{
+		"en":"「Party Creator ONLY」Allow someone join your party again",
+		"zh_CN":"「仅限派对创建者」解除成员的派对封禁",
+		"ja":"「パーティークリエイター専用」誰かを再度あなたのパーティーに参加させる"
+	},
+	"search":{
+		"en":"search",
+		"zh_CN":"搜图",
+		"ja":"フォト検索"
+	},
+	"Image search":{
+		"en":"Image search",
+		"zh_CN":"以图搜图",
+		"ja":"画像を検索"
+	},
+	"フォト検索":{
+		"en":"Image Search",
+		"zh_CN":"以图搜图",
+		"ja":"フォト検索"
+	},
+	"Draw a SETU from PIXIV ~":{
+		"en":"help",
+		"zh_CN":"从PIXIV抽取一张色图",
+		"ja":"PIXIVからエロ画像を描きなさい~"
+	},
+	"图片是否为 R18 限制级，默认为False":{
+		"en":"Is the picture R18 restricted, default is False.",
+		"zh_CN":"图片是否为 R18 限制级，默认为False",
+		"ja":"画像がR18制限級であるかどうかは、デフォルトではFalseです。"
+	},
+	"返回匹配指定标签的作品，可使用&、|":{
+		"en":"Return works that match the specified tag, you can use & and |.",
+		"zh_CN":"返回匹配指定标签的作品，可使用&、|",
+		"ja":"指定されたタグに一致する作品を返すには、&（アンド）と|（オア）を使用できます。"
+	},
+	"删除色图投票":{
+		"en":"del_setu_vote",
+		"zh_CN":"删除色图投票",
+		"ja":"エロ画像の投票を削除"
+	},
+	"Show role shop menu":{
+		"en":"Show role shop menu",
+		"zh_CN":"打开身份组商店页面",
+		"ja":"身份組の店舗ページを開く"
+	}
+}
